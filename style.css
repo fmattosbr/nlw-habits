@@ -11,6 +11,16 @@
     height: 100vh;
   }
 
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+    position: fixed;
+    width 100%
+    background-color: #09090A;
+  }
+
   button {
     padding: 16px 24px;
     border-radius: 8px;
@@ -28,29 +38,19 @@
     line-height: 125%;
   }
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 48px;
-    position: fixed;
-    background-color: #09090A;
-  }
-
   #form-habits {
     display: flex;
+
     padding: 182px 48px 48px;
     width: fit-content;
-  
   }
 
   .habits {
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
 
     gap: 24px;
-
-    margin-top: 60px;
   }
 
   .habit {
